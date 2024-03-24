@@ -7,6 +7,11 @@ Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://ce
 1. PHP 8.1
 1. `cecil.phar` : <https://cecil.app/download/>
 
+## Gestion du contenu
+
+- Paramétrage du site : `cecil.yml`
+- Home page : `pages/index.md`
+
 ## Aperçu local
 
 ```bash
