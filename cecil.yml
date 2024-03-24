@@ -1,10 +1,10 @@
 title: Le jeu dont vous êtes le Jean Claude
-baseline: "Incarnez Jean Claude, Racontez ses exploits, sauvez le d’une mort certaine"
+baseline: "Incarnez Jean Claude, racontez ses exploits, sauvez le d’une mort certaine"
 baseurl: https://jeanclaude-aventures.com/
 description: "Jean Claude est un jeu d’histoires coopératif ultra simple et convivial, qui permet d’incarner facilement et rapidement un personnage, pour s’initier au jeu de rôle tout en douceur."
 author:
   name: Éditions Univers Détendu
-#image: cecil-card.png
+image: images/open-graph.jpg
 social:
   facebook:
     url: https://www.facebook.com/jeanclaude.aventures
@@ -16,9 +16,8 @@ social:
     url: https://www.youtube.com/@jeanclaude.aventures
   twitch:
     url: https://www.twitch.tv/jeanclaudeaventures
-
 buttondown:
-  account: aligny
+  username: jeanclaude
 
 theme:
   - fontawesome
