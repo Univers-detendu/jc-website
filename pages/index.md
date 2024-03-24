@@ -41,6 +41,4 @@ Vous avez une question, besoin d’infos, une idée soudaine, un truc à nous ra
 
 Envoyez nous un mail à <contact@jeanclaude-aventures.com>.
 
-<h2 class="text-neutral-400">
-Jean Claude est un jeu (bientôt) édité par les Éditions Univers Détendu, conçu à 8 mains par <a href="https://damien.super.site">Damien Barré</a>, <a href="https://curiouser.fr/curiouser/lequipe/">Cyril Rimbaud</a>, <a href="https://www.linkedin.com/in/mrolivier/">Olivier Ravard</a> et <a href="https://www.cecillie.fr">Cécile Ricordeau</a>.
-</h2>
+## Jean Claude est un jeu (bientôt) édité par les Éditions Univers Détendu, conçu à 8 mains par [Damien Barré](https://damien.super.site), [Cyril Rimbaud](https://curiouser.fr/curiouser/lequipe/), [Olivier Ravard](https://www.linkedin.com/in/mrolivier/) et [Cécile Ricordeau](https://www.cecillie.fr){.text-neutral-400}
