@@ -1,0 +1,92 @@
+{%- import 'macros/fontawesome.twig' as fontawesome -%}
+<!DOCTYPE html>
+<html lang="{{ site.language }}" class="scroll-smooth overflow-y-scroll">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    {{- include('partials/metatags.html.twig') ~}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    {%- include 'partials/fontawesome.twig' ~%}
+    <style>{{ asset('css/styles.css')|inline }}</style>
+  </head>
+  <body class="font-sans antialiased bg-white text-secondary">
+    <div class="bg-primary text-white rounded-b-xl md:rounded-b-3xl">
+      <header class="container mx-auto px-4 md:pl-8 md:pr-0 pt-10 pb-20 text-center md:text-left">
+        <div class="flex flex-col md:flex-row space-x-4">
+          <div class="basis-1/2">
+            <div class="inline">{{ asset('images/logo.svg')|html(attributes={class: 'inline'}) }}</div>
+            <div class="mt-12 uppercase">{{ site.title }}</div>
+            <div class="mt-4 font-title text-3xl uppercase tracking-wide">{{ site.baseline|split(',')|join('\n')|nl2br }}</div>
+            <div class="mt-8">{{ site.description }}</div>
+            <div class="mt-10">
+              <p>Inscrivez pour être averti du lancement :</p>
+              <form
+                action="https://buttondown.email/api/emails/embed-subscribe/aligny"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/{{ site.buttondown.account }}', 'popupwindow')"
+                class="embeddable-buttondown-form relative max-w-96"
+              >
+                <input type="email" placeholder="Entrez votre e-mail" name="email" id="bd-email" required class="form-input rounded-full border-0 w-full" />
+                <input type="submit" value="M’inscrire" class="form-input rounded-full border-0 bg-secondary text-white absolute right-0" />
+              </form>
+            </div>
+          </div>
+          <div class="mt-10 md:mt-16 basis-1/2">
+            {{ asset('images/boite.png')|html }}
+          </div>
+        </div>
+      </header>
+    </div>
+    <main class="container mx-auto px-4 md:px-8 pt-10 pb-20">
+      <div class="p-8 rounded-3xl shadow-md mt-[-80px] bg-white">
+        {{ page.content }}
+      </div>
+      <div class="mt-10 flex flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0">
+        <div class="basis-1/3 p-6 rounded-2xl bg-primary text-white">
+          <h3>Comment on joue ?</h3>
+          <p>Chaque partie de Jean Claude est une aventure constituée de six péripéties, racontées par l’un des joueurs, qui endosse le rôle de Maître de Jeu. Le plus simple, c’est de choisir le joueur qui aime bien raconter des choses.</p>
+          <p>Ce sont les solutions trouvées et racontées par les autres joueurs qui vont rendre l’aventure de Jean Claude unique.</p>
+        </div>
+        <div class="basis-1/3 p-6 rounded-2xl bg-primary text-white">
+          <h3>C’est long une partie de Jean Claude ? (non) (enfin ça dépend) (mais en géénral non)</h3>
+          <p>Une partie de Jean Claude demande environ zéro préparation, pour des règles expliquées en moins de 3 minutes, un nombre de joueurs variant de 2 à plein et une durée d’à peu près une demie heure (plus si les joueurs sont intarissables).</p>
+        </div>
+        <div class="basis-1/3 p-6 rounded-2xl bg-primary text-white">
+          <h3>Ha très bien, et comment vous est venue cette idée ?</h3>
+          <p>On est convaincus que les histoires ont le pouvoir de nous rapprocher.<br>
+          Et que tout le monde a le pouvoir d’en raconter.<br>
+          Alors on a inventé Les Aventures de Jean Claude, le jeu qui libère votre imagination.</p>
+        </div>
+      </div>
+      <div class="mt-10">
+        <h2>Et sinon, je me demandais, pourquoi le personnage s’appelle Jean Claude ?</h2>
+        <p>C’est une très bonne question.<br>
+        N’hésitez pas à nous la poser en nous contactant :</p>
+        <h2>Nous contacter</h2>
+        <p>Vous voulez participer à un playtest ? Vous voulez en organiser un ?<br>
+        Vous avez une question, besoin d’infos, une idée soudaine, un truc à nous raconter ou des choses à nous dire ?</p>
+        <p>Envoyez nous un mail à <a href="mailto:contact@jeanclaude-aventures.com">contact@jeanclaude-aventures.com</a></p>
+        <h2 class="text-neutral-400">
+          Jean Claude est un jeu (bientôt) édité par les Éditions Univers Détendu, conçu à 8 mains par <a href="https://damien.super.site">Damien Barré</a>, <a href="https://curiouser.fr/curiouser/lequipe/">Cyril Rimbaud</a>, <a href="https://www.linkedin.com/in/mrolivier/">Olivier Ravard</a> et <a href="https://www.cecillie.fr">Cécile Ricordeau</a>.
+        </h2>
+      </div>
+    </main>
+    <div class="bg-primary text-white rounded-t-xl md:rounded-t-3xl">
+      <footer class="container mx-auto px-4 md:px-8 pt-10 pb-2">
+        <div class="flex flex-row space-x-6 justify-center">
+          <a href="{{ site.social.facebook.url }}">{{ fontawesome.icon('facebook', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.instagram.url }}">{{ fontawesome.icon('instagram', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.tiktok.url }}">{{ fontawesome.icon('tiktok', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.youtube.url }}">{{ fontawesome.icon('youtube', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.twitch.url }}">{{ fontawesome.icon('twitch', 'brands', '2xl') }}</a>
+        </div>
+        <div class="p-8 text-center text-sm">
+          Les aventures de Jean Claude. Tous droits réservés.<br>
+          Propulsé par <a href="{{ cecil.url }}">Cecil</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
