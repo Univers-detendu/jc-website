@@ -2,6 +2,9 @@ module.exports = {
     content: [
       './layouts/**/*.html.twig',
     ],
+    safelist: [
+      'text-neutral-400',
+    ],
     theme: {
       fontFamily: {
         'title': ['"Gasoek One"'],
