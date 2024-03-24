@@ -60,11 +60,9 @@
     <div class="bg-primary text-white rounded-t-xl md:rounded-t-3xl">
       <footer class="container mx-auto px-4 md:px-8 pt-10 pb-2">
         <div class="flex flex-row space-x-6 justify-center">
-          <a href="{{ site.social.facebook.url }}"><span class="sr-only">Facebook</span>{{ fontawesome.icon('facebook', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.instagram.url }}"><span class="sr-only">Instagram</span>{{ fontawesome.icon('instagram', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.tiktok.url }}"><span class="sr-only">TikTok</span>{{ fontawesome.icon('tiktok', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.youtube.url }}"><span class="sr-only">YouTube</span>{{ fontawesome.icon('youtube', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.twitch.url }}"><span class="sr-only">Twitch</span>{{ fontawesome.icon('twitch', 'brands', '2xl') }}</a>
+          {%- for name, attr in site.social|default([]) ~%}
+          <a href="{{ attr.url }}"><span class="sr-only">{{ name|capitalize }}</span>{{ fontawesome.icon(name, 'brands', '2xl') }}</a>
+          {%- endfor ~%}
         </div>
         <div class="p-8 text-center text-sm">
           Les aventures de Jean Claude. Tous droits réservés.<br>
