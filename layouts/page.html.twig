@@ -15,17 +15,17 @@
       <header class="container mx-auto px-4 md:pl-8 md:pr-0 pt-10 pb-20 text-center md:text-left">
         <div class="flex flex-col md:flex-row space-x-4">
           <div class="basis-1/2">
-            <div class="inline">{{ asset('images/logo.svg')|html(attributes={class: 'inline'}) }}</div>
+            <div class="inline">{{ asset('images/logo.svg')|html(attributes={alt: "Logo du site", class: 'inline'}) }}</div>
             <div class="mt-12 uppercase">{{ site.title }}</div>
-            <div class="mt-4 font-title text-3xl uppercase tracking-wide">{{ site.baseline|split(',')|join('\n')|nl2br }}</div>
+            <h1 class="mt-4 font-title text-3xl uppercase tracking-wide">{{ site.baseline|split(',')|join('\n')|nl2br }}</h1>
             <div class="mt-8">{{ site.description }}</div>
             <div class="mt-10">
               <p>Inscrivez pour être averti du lancement :</p>
               <form
-                action="https://buttondown.email/api/emails/embed-subscribe/aligny"
+                action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown.username }}"
                 method="post"
                 target="popupwindow"
-                onsubmit="window.open('https://buttondown.email/{{ site.buttondown.account }}', 'popupwindow')"
+                onsubmit="window.open('https://buttondown.email/{{ site.buttondown.username }}', 'popupwindow')"
                 class="embeddable-buttondown-form relative max-w-96"
               >
                 <input type="email" placeholder="Entrez votre e-mail" name="email" id="bd-email" required class="form-input rounded-full border-0 w-full" />
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="mt-10 md:mt-16 basis-1/2">
-            {{ asset('images/boite.png')|html }}
+            {{ asset('images/boite.png')|html(attributes={alt: "Illustration de la boite de jeu"}) }}
           </div>
         </div>
       </header>
@@ -60,11 +60,11 @@
     <div class="bg-primary text-white rounded-t-xl md:rounded-t-3xl">
       <footer class="container mx-auto px-4 md:px-8 pt-10 pb-2">
         <div class="flex flex-row space-x-6 justify-center">
-          <a href="{{ site.social.facebook.url }}">{{ fontawesome.icon('facebook', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.instagram.url }}">{{ fontawesome.icon('instagram', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.tiktok.url }}">{{ fontawesome.icon('tiktok', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.youtube.url }}">{{ fontawesome.icon('youtube', 'brands', '2xl') }}</a>
-          <a href="{{ site.social.twitch.url }}">{{ fontawesome.icon('twitch', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.facebook.url }}"><span class="sr-only">Facebook</span>{{ fontawesome.icon('facebook', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.instagram.url }}"><span class="sr-only">Instagram</span>{{ fontawesome.icon('instagram', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.tiktok.url }}"><span class="sr-only">TikTok</span>{{ fontawesome.icon('tiktok', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.youtube.url }}"><span class="sr-only">YouTube</span>{{ fontawesome.icon('youtube', 'brands', '2xl') }}</a>
+          <a href="{{ site.social.twitch.url }}"><span class="sr-only">Twitch</span>{{ fontawesome.icon('twitch', 'brands', '2xl') }}</a>
         </div>
         <div class="p-8 text-center text-sm">
           Les aventures de Jean Claude. Tous droits réservés.<br>
