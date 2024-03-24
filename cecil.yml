@@ -4,7 +4,8 @@ baseline: "Incarnez Jean Claude, racontez ses exploits, sauvez le d’une mort c
 baseurl: https://jeanclaude-aventures.netlify.app/
 description: "Jean Claude est un jeu d’histoires coopératif ultra simple et convivial, qui permet d’incarner facilement et rapidement un personnage, pour s’initier au jeu de rôle tout en douceur."
 author:
-  name: Éditions Univers Détendu
+  name: Les Éditions Univers Détendu
+  #url:
 image: images/open-graph.jpg
 social:
   facebook:
