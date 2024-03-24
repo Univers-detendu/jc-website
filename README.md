@@ -1,4 +1,4 @@
-# Les aventures Jean Claude, le site web
+# Les aventures de Jean Claude, le site web
 
 Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://cecil.app).
 
@@ -26,7 +26,7 @@ Puis ouvrir un navigateur web à l'adresse <http://localhost:8000>.
 php cecil.phar build
 ```
 
-Puis copier le contenu du dossier __site_ sur le serveur web.
+Puis copier le contenu du dossier `_site` sur le serveur web.
 
 ## (re)Création de la feuille de styles
 
