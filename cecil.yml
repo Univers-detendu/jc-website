@@ -6,7 +6,7 @@ baseurl: https://jeanclaude-aventures.com/
 description: "Jean Claude est un jeu d’histoires coopératif ultra simple et convivial, qui permet d’incarner facilement et rapidement un personnage, pour s’initier au jeu de rôle tout en douceur."
 author:
   name: Les Éditions Univers Détendu
-  #url:
+  url: "#"
 image: images/open-graph.jpg
 social:
   facebook:
