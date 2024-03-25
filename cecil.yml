@@ -67,3 +67,6 @@ pages:
         enabled: true
       external:
         blank: true
+metatags:
+  jsonld:
+    enabled: true
