@@ -26,8 +26,18 @@ language: fr
 languages:
   - code: fr
     locale: fr_FR
+
 theme:
   - fontawesome
+  - netlify
+
+netlify:
+  redirects:
+    - from: https://jeanclaude-aventures.netlify.app/*
+      to: https://jeanclaude-aventures.com/:splat
+      status: 301
+      force: true
+
 assets:
   images:
     optimize:

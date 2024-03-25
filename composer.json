@@ -1,6 +1,7 @@
 {
     "require": {
-        "cecil/theme-fontawesome": "^1.2"
+        "cecil/theme-fontawesome": "^1.2",
+        "cecil/theme-netlify": "^2.0"
     },
     "config": {
         "allow-plugins": {
