@@ -7,12 +7,18 @@ Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://ce
 1. PHP 8.1
 1. `cecil.phar` : <https://cecil.app/download/>
 
-## Gestion du contenu
+## Structure du projet
 
 - Paramétrage du site : `cecil.yml`
-- Home page : `pages/index.md`
+- Contenu de la page d’accueil : `pages/index.md`
+- Templates Twig : `layouts/`
+- Images et feuille de styles : `assets/`
+- Fichiers copiés tels quels : `static/`
+- Site généré : `_site`
 
 ## Aperçu local
+
+Exécuter la commande suivante dans un terminal :
 
 ```bash
 php cecil.phar serve
@@ -22,18 +28,22 @@ Puis ouvrir un navigateur web à l'adresse <http://localhost:8000>.
 
 ## Génération du site
 
+Exécuter la commande suivante dans un terminal :
+
 ```bash
 php cecil.phar build
 ```
 
 Puis copier le contenu du dossier `_site` sur le serveur web.
 
-## (re)Création de la feuille de styles
+## (re)Génération de la feuille de styles
 
-Le fichier de style `assets/styles.css` est généré par Tailwind CSS, à partir des fichiers suivants :
+Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https://tailwindcss.com), à partir des fichiers suivants :
 
 1. `tailwind.config.js`
 2. `tailwind.css`
+
+Si l’un de ces fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
 
 ```bash
 npm install
