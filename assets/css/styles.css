@@ -1030,6 +1030,15 @@ a {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1042,12 +1051,12 @@ a {
   padding-top: 2.5rem;
 }
 
-.text-center {
-  text-align: center;
+.pt-4 {
+  padding-top: 1rem;
 }
 
-.font-title {
-  font-family: "Gasoek One";
+.text-center {
+  text-align: center;
 }
 
 .text-3xl {
@@ -1066,10 +1075,6 @@ a {
 
 .capitalize {
   text-transform: capitalize;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
 }
 
 .text-neutral-400 {
