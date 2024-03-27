@@ -64,9 +64,9 @@
           <a href="{{ attr.url }}"><span class="sr-only">{{ name|capitalize }}</span>{{ fontawesome.icon(name, 'brands', '2xl') }}</a>
           {%- endfor ~%}
         </div>
-        <div class="p-8 text-center text-sm">
-          Les aventures de Jean Claude. Tous droits réservés <a href="{{ site.author.url|default(url('/')) }}">{{ site.author.name }}</a>.<br>
-          Propulsé par <a href="{{ cecil.url }}">Cecil</a>
+        <div class="px-8 pt-4 pb-0 text-center text-sm">
+          <p>{{ site.title }}. Tous droits réservés <a href="{{ site.author.url|default(url('/')) }}">{{ site.author.name }}</a>.</p>
+          <p>Propulsé par <a href="{{ cecil.url }}">Cecil</a></p>
         </div>
       </footer>
     </div>
