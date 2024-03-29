@@ -16,8 +16,7 @@
         <div class="flex flex-col md:flex-row space-x-4">
           <div class="basis-1/2">
             <div class="inline">{{ asset('images/logo.svg')|html(attributes={alt: "Logo du site", class: 'inline'}) }}</div>
-            <div class="mt-12 uppercase">{{ site.baseline }}</div>
-            <h1 class="mt-4 text-3xl">{{ site.baseline2|split(',')|join('\n')|nl2br }}</h1>
+            <h1 class="mt-12 text-3xl">{{ site.baseline|split(',')|join('\n')|nl2br }}</h1>
             <div class="mt-8">{{ site.description }}</div>
             <div class="mt-10">
               <p>Inscrivez pour être averti du lancement :</p>
