@@ -902,10 +902,6 @@ a {
   margin-top: 3rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1067,10 +1063,6 @@ a {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 .capitalize {
