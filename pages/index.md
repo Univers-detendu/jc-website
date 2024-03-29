@@ -5,7 +5,7 @@ blocks:
       answer: |
         Chaque partie de Jean Claude est une aventure constituée de six péripéties, racontées par l’un des joueurs, qui endosse le rôle de Maître de Jeu.
 
-Ce sont les solutions trouvées et racontées par les autres joueurs qui vont rendre l’aventure de Jean Claude unique.
+        Ce sont les solutions trouvées et racontées par les autres joueurs qui vont rendre l’aventure de Jean Claude unique.
     - question: "C’est long une partie de Jean Claude ? (non) (enfin ça dépend)"
       answer: |
         Une partie demande environ zéro préparation, pour des règles expliquées en moins de 3 minutes, un nombre de joueurs variant de 2 à plein et une durée d’à peu près une demie heure.
@@ -13,8 +13,7 @@ Ce sont les solutions trouvées et racontées par les autres joueurs qui vont re
       answer: |
         On est convaincus que les histoires ont le pouvoir de nous rapprocher.
 
-Et que tout le monde a le pouvoir d’en raconter !
-
+        Et que tout le monde a le pouvoir d’en raconter !
 ---
 ## On ne meurt que plein de fois
 
