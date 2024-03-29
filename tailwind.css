@@ -23,4 +23,7 @@
   a {
     @apply underline;
   }
+  main img {
+    @apply mx-auto;
+  }
 }
