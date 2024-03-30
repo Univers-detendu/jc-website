@@ -3,7 +3,7 @@ blocks:
   questions:
     - question: "Comment on joue ?"
       answer: |
-        Chaque partie de Jean Claude est une aventure constituée de six péripéties, racontées par l’un des joueurs, qui endosse le rôle de Maître de Jeu.
+        Chaque partie est une aventure constituée de six péripéties, racontées par l’un des joueurs, qui endosse le rôle de Maître de Jeu.
 
         Ce sont les solutions trouvées et racontées par les autres joueurs qui vont rendre l’aventure de Jean Claude unique.
     - question: "C’est long une partie de Jean Claude ? (non) (enfin ça dépend)"
