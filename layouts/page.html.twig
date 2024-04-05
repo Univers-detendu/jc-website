@@ -9,7 +9,7 @@
     {{- include('partials/fontawesome.twig') ~}}
     <style>{{ asset('css/styles.css')|inline }}</style>
   </head>
-  <body class="font-sans antialiased bg-white text-secondary">
+  <body class="flex flex-col min-h-screen font-sans antialiased bg-white text-secondary">
     <div class="bg-primary text-white rounded-b-xl md:rounded-b-3xl">
       <header class="container mx-auto px-4 md:pl-8 md:pr-0 pt-10 pb-20 text-center md:text-left">
         {%- block header ~%}
@@ -21,7 +21,7 @@
         {%- endblock header ~%}
       </header>
     </div>
-    <main class="container mx-auto px-4 md:px-8 pt-10 pb-20">
+    <main class="flex-grow container mx-auto px-4 md:px-8 pt-10 pb-20">
       {%- block main ~%}
       <div class="p-8 rounded-3xl shadow-md mt-[-80px] bg-white">
         {{ page.content }}
