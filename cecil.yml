@@ -68,3 +68,5 @@ pages:
 metatags:
   jsonld:
     enabled: true
+  favicon:
+    image: favicon.jpg
