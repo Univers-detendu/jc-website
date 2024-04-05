@@ -915,6 +915,10 @@ main img {
   margin-top: -80px;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }

@@ -1,0 +1,9 @@
+---
+title: Contact
+---
+# Nous contacter
+
+Vous voulez participer à un playtest ? Vous voulez en organiser un ?
+Vous avez une question, besoin d’infos, une idée soudaine, un truc à nous raconter ou des choses à nous dire ?
+
+Envoyez nous un mail à <contact@jeanclaude-aventures.com>.
