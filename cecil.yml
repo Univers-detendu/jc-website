@@ -4,7 +4,7 @@ baseurl: https://jeanclaude-aventures.com/
 description: "Un jeu d’histoires coopératif ultra simple et convivial, qui permet d’incarner facilement et rapidement un personnage, pour s’initier au jeu de rôle tout en douceur."
 author:
   name: Les éditions Univers Détendu
-  url: "#"
+  url: "https://www.linkedin.com/company/univers-detendu/"
 image: images/open-graph.jpg
 social:
   facebook:
@@ -68,3 +68,5 @@ pages:
 metatags:
   jsonld:
     enabled: true
+  favicon:
+    image: favicon.jpg
