@@ -23,7 +23,7 @@ Parfois ça marche. Parfois non.
 
 Jean Claude va mourir. Et pas qu’un peu.
 
-![Plusieurs decks](../assets/images/decks2.png)
+![Plusieurs decks](../assets/images/decks2.jpg)
 
 <div class="mt-10 flex flex-col md:flex-row gap-8 justify-center">
   <div class="basis-1/2 px-10 py-6 rounded-full bg-neutral-400 text-white max-w-fit text-center">
