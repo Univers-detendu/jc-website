@@ -6,7 +6,7 @@
             <div class="inline">{{ asset('images/logo.svg')|html(attributes={alt: "Logo du site", class: 'inline'}) }}</div>
             <h1 class="mt-12 text-3xl">{{ site.baseline|split(',')|join('\n')|nl2br }}</h1>
             <div class="mt-8">{{ site.description }}</div>
-            <div class="mt-10">
+            {#-<div class="mt-10">
               <p>Inscrivez pour être averti du lancement :</p>
               <form
                 action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown.username }}"
@@ -18,10 +18,17 @@
                 <input type="email" placeholder="Entrez votre e-mail" name="email" id="bd-email" required class="form-input rounded-full border-0 w-full text-secondary" />
                 <input type="submit" value="M’inscrire" class="form-input rounded-full border-0 bg-secondary text-white absolute right-0" />
               </form>
+            </div>~#}
+            <div class="mt-10 pb-10 text-wrap">
+              <div class="pb-10">En précommande <a href="{{ url(site.social.ulule.url) }}">sur Ulule</a> dès le 4 juin !</div>
+              <div class="px-10 py-6 rounded-full bg-secondary text-white font-bold max-w-fit">
+                <a href="{{ url(site.social.ulule.url) }}" class="no-underline">Commander dès maintenant sur Ulule<span> →</span></a>
+              </div>
             </div>
           </div>
           <div class="mt-10 md:mt-16 basis-1/2">
-            {{ asset('images/boite.png')|html(attributes={alt: "Illustration de la boite de jeu", class: "header"}) }}
+            <a href="{{ url(site.social.ulule.url) }}"><img src="{{ asset('images/ulule.svg') }}" class="absolute w-1/6 h-1/6" /></a>
+            {{ asset('images/boite3.png')|html(attributes={alt: "Illustration de la boite de jeu", class: "header"}) }}
           </div>
         </div>
         {%- endblock header ~%}
