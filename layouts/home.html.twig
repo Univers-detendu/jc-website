@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="mt-10 md:mt-16 basis-1/2">
-            <a href="{{ url(site.social.ulule.url) }}"><img src="{{ asset('images/ulule.svg') }}" class="absolute w-1/6 h-1/6" /></a>
+            <a href="{{ url(site.social.ulule.url) }}">{{ asset('images/ulule.svg')|html(attributes={alt: "Logo Ulule", class: "absolute w-1/6 h-1/6"}) }}</a>
             {{ asset('images/boite3.png')|html(attributes={alt: "Illustration de la boite de jeu", class: "header"}) }}
           </div>
         </div>
