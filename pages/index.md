@@ -23,7 +23,7 @@ Parfois ça marche. Parfois non.
 
 Jean Claude va mourir. Et pas qu’un peu.
 
-![Plusieurs decks](../assets/images/decks2.jpg)
+![Plusieurs decks](../assets/images/decks2.png)
 
 <div class="mt-10 flex flex-col md:flex-row gap-8 justify-center">
   <a href="https://www.instagram.com/jeanclaude.aventures" class="no-underline">
