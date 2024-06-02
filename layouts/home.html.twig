@@ -52,4 +52,18 @@
       <div class="mt-10">
         {{ page.content|excerpt_html({capture: 'after'}) }}
       </div>
+      <div class="mt-10">
+        <h2>Newsletter</h2>
+        <p>Inscrivez pour être averti du lancement :</p>
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown.username }}"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/{{ site.buttondown.username }}', 'popupwindow')"
+          class="embeddable-buttondown-form relative max-w-96"
+        >
+          <input type="email" placeholder="Entrez votre e-mail" name="email" id="bd-email" required class="form-input rounded-full w-full text-secondary" />
+          <input type="submit" value="M’inscrire" class="form-input rounded-full bg-secondary text-white absolute right-0" />
+        </form>
+      </div>
       {%- endblock main ~%}
