@@ -17,6 +17,8 @@ social:
     url: https://www.youtube.com/@jeanclaude.aventures
   twitch:
     url: https://www.twitch.tv/jeanclaudeaventures
+  ulule:
+    url: https://fr.ulule.com/les-aventures-de-jean-claude
 buttondown:
   username: jeanclaude
 
@@ -42,7 +44,7 @@ assets:
       enabled: true
     quality: 75
     responsive:
-      widths: [480, 640, 768, 1024, 1366, 1600, 1920]
+      widths: [480, 640, 768, 1024]
       sizes:
         default: '100vw'
         header: "(max-width: 480px) 480px, (max-width: 640px) 640px, (max-width: 800px) 768px, (max-width: 1600px) 1024px"

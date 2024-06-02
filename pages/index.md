@@ -23,9 +23,26 @@ Parfois ça marche. Parfois non.
 
 Jean Claude va mourir. Et pas qu’un peu.
 
-![Plusieurs decks](../assets/images/decks.png)
+![Plusieurs decks](../assets/images/decks2.png)
+
+<div class="mt-10 flex flex-col md:flex-row gap-8 justify-center">
+  <a href="https://www.instagram.com/jeanclaude.aventures" class="no-underline">
+    <div class="basis-1/2 px-10 py-6 rounded-full bg-neutral-400 text-white max-w-fit text-center">
+      Suivre Jean Claude sur Instagram
+    </div>
+  </a>
+  <a href="/kit" class="no-underline">
+    <div class="basis-1/2 px-10 py-6 rounded-full bg-secondary text-white max-w-fit text-center">
+      Télécharger le kit de communication
+    </div>
+  </a>
+</div>
 
 <!-- break -->
+
+## Les règles en vidéo
+
+[Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
 
 ## Nous contacter
 
