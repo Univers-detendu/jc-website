@@ -899,6 +899,10 @@ main img {
   margin-right: auto;
 }
 
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -927,8 +931,20 @@ main img {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
+.hidden {
+  display: none;
+}
+
 .h-1\/6 {
   height: 16.666667%;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .min-h-screen {
@@ -939,17 +955,16 @@ main img {
   width: 16.666667%;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-full {
   width: 100%;
 }
 
 .max-w-96 {
   max-width: 24rem;
-}
-
-.max-w-fit {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
 }
 
 .flex-grow {
@@ -970,6 +985,10 @@ main img {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -1171,6 +1190,10 @@ main img {
     margin-top: 4rem;
   }
 
+  .md\:inline-block {
+    display: inline-block;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1213,4 +1236,9 @@ main img {
   .md\:text-left {
     text-align: left;
   }
+}
+
+.rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *) {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }

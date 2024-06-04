@@ -26,15 +26,11 @@ Jean Claude va mourir. Et pas qu’un peu.
 ![Plusieurs decks](../assets/images/decks2.png)
 
 <div class="mt-10 flex flex-col md:flex-row gap-8 justify-center">
-  <a href="https://www.instagram.com/jeanclaude.aventures" class="no-underline">
-    <div class="basis-1/2 px-10 py-6 rounded-full bg-neutral-400 text-white max-w-fit text-center">
-      Suivre Jean Claude sur Instagram
-    </div>
+  <a href="https://www.instagram.com/jeanclaude.aventures" class="inline-flex items-center justify-center no-underline basis-1/2 px-10 py-6 rounded-full bg-neutral-400 text-white text-center">
+    Suivre Jean Claude sur Instagram
   </a>
-  <a href="/kit" class="no-underline">
-    <div class="basis-1/2 px-10 py-6 rounded-full bg-secondary text-white max-w-fit text-center">
-      Télécharger le kit de communication
-    </div>
+  <a href="/kit" class="inline-flex items-center justify-center no-underline basis-1/2 px-10 py-6 rounded-full bg-secondary text-white text-center">
+    Télécharger le kit de communication
   </a>
 </div>
 
