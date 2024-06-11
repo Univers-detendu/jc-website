@@ -1,5 +1,5 @@
         {#- block newsletter ~#}
-        <h2>{{ block.title }}</h2>
+        <h2 id="{{ block.name }}">{{ block.title }}</h2>
         {{ block.content|markdown_to_html ~}}
         <form
           action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown.username }}"

@@ -26,11 +26,11 @@ blocks:
           On est convaincus que les histoires ont le pouvoir de nous rapprocher.
 
           Et que tout le monde a le pouvoir d’en raconter !
-  - name: simple
+  - name: regles
     title: Les règles en vidéo
     content: |
       [Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
-  - name: simple
+  - name: contact
     title: Nous contacter
     content: |
       Vous voulez participer à un playtest ? Vous voulez en organiser un ?
