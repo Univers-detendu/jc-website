@@ -959,6 +959,10 @@ main img {
   width: 100%;
 }
 
+.max-w-52 {
+  max-width: 13rem;
+}
+
 .max-w-96 {
   max-width: 24rem;
 }
