@@ -1,0 +1,13 @@
+        {#- block newsletter ~#}
+        <h2>{{ block.title }}</h2>
+        {{ block.content|markdown_to_html ~}}
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown.username }}"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/{{ site.buttondown.username }}', 'popupwindow')"
+          class="embeddable-buttondown-form relative max-w-96"
+        >
+          <input type="email" placeholder="Entrez votre e-mail" name="email" id="bd-email" required class="form-input rounded-full w-full text-secondary" />
+          <input type="submit" value="M’inscrire" class="form-input rounded-full bg-secondary text-white absolute right-0" />
+        </form>

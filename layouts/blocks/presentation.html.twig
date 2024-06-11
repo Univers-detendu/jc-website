@@ -1,0 +1,11 @@
+        {#- block presentation ~#}
+        <h2>{{ block.title }}</h2>
+        {{ block.content|markdown_to_html ~}}
+        <div class="mt-10 flex flex-col md:flex-row gap-8 justify-center">
+          <a href="{{ site.social.instagram.url }}" class="inline-flex items-center justify-center no-underline basis-1/2 px-10 py-6 rounded-full bg-neutral-400 text-white text-center">
+            Suivre Jean Claude sur Instagram
+          </a>
+          <a href="/kit" class="inline-flex items-center justify-center no-underline basis-1/2 px-10 py-6 rounded-full bg-secondary text-white text-center">
+            Télécharger le kit de communication
+          </a>
+        </div>
