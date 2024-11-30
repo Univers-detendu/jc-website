@@ -1,3 +1,4 @@
 ---
+title: Le sac à dos
 redirect: https://jc-sac.netlify.app
 ---
