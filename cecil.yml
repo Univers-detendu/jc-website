@@ -7,16 +7,17 @@ author:
   url: "https://www.linkedin.com/company/univers-detendu/"
 image: images/open-graph.jpg
 social:
-  facebook:
-    url: https://www.facebook.com/jeanclaude.aventures
   instagram:
     url: https://www.instagram.com/jeanclaude.aventures
   tiktok:
     url: https://www.tiktok.com/@jeanclaude.aventures
+  facebook:
+    url: https://www.facebook.com/jeanclaude.aventures
   youtube:
     url: https://www.youtube.com/@jeanclaude.aventures
   twitch:
     url: https://www.twitch.tv/jeanclaudeaventures
+liens:
   ulule:
     url: https://fr.ulule.com/les-aventures-de-jean-claude
   shop:
