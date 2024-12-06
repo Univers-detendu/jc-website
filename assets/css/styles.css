@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -1021,6 +1021,12 @@ main img {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1033,10 +1039,6 @@ main img {
 
 .scroll-smooth {
   scroll-behavior: smooth;
-}
-
-.text-wrap {
-  text-wrap: wrap;
 }
 
 .rounded-2xl {
@@ -1236,6 +1238,10 @@ main img {
 
   .md\:w-1\/6 {
     width: 16.666667%;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:flex-row {
