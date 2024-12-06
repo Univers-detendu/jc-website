@@ -10,12 +10,9 @@ blocks:
 
       Jean Claude va mourir. Et pas qu’un peu.
 
-
       ![Plusieurs decks](../assets/images/decks2.png)
 
-
       Les aventures de Jean Claude a été financé avec succès en Juillet 2024 [sur Ulule](https://fr.ulule.com/les-aventures-de-jean-claude/). Grâce à votre soutien, notre campagne de financement participatif a dépassé les 10 000 € ! Un immense merci à toutes et tous !
-
   - name: qa
     questions:
       - question: "Comment on joue ?"
@@ -35,11 +32,12 @@ blocks:
     title: Les règles en vidéo
     content: |
       [Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
+
       Vous pouvez aussi télécharger les [règles du jeu en PDF](https://drive.google.com/file/d/1xJOOaSDSPL0XsoqQIVxTkPTXuyieXoUW/view?usp=sharing).
   - name: contact
     title: Nous contacter
     content: |
-      Vous voulez participer à un playtest ? Vous voulez en organiser un ?
+      Vous voulez participer à un playtest ? Vous voulez en organiser un ?  
       Vous avez une question, besoin d’infos, une idée soudaine, un truc à nous raconter ou des choses à nous dire ?
 
       Envoyez nous un mail à <contact@jeanclaude-aventures.com>.
