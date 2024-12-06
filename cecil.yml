@@ -19,6 +19,8 @@ social:
     url: https://www.twitch.tv/jeanclaudeaventures
   ulule:
     url: https://fr.ulule.com/les-aventures-de-jean-claude
+  shop:
+    url: https://universdetendu.com/produits
 buttondown:
   username: jeanclaude
 language: fr
