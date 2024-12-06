@@ -8,19 +8,19 @@
             <div class="mt-8">{{ site.description }}</div>
             {#- include('partials/_newsletter.html.twig') ~#}
             <div class="mt-10 pb-10 flex flex-col space-y-2">
-              <a href="{{ url(site.social.shop.url) }}" class="md:w-64 inline-flex items-center justify-center px-10 py-6 rounded-full bg-secondary text-white font-bold no-underline transition hover:brightness-125 duration-300">
+              <a href="{{ url(site.liens.shop.url) }}" class="md:w-64 inline-flex items-center justify-center px-10 py-6 rounded-full bg-secondary text-white font-bold no-underline transition hover:brightness-125 duration-300">
                 Acheter le jeu
                 <svg class="hidden md:inline-block w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
               </a>
-              <a href="{{ url(site.social.ulule.url) }}" class="md:w-64 text-sm no-underline text-center">
+              <a href="{{ url(site.liens.ulule.url) }}" class="md:w-64 text-sm no-underline text-center">
                 Voir la page Ulule
               </a>
             </div>
           </div>
           <div class="mt-10 md:mt-16 basis-1/2">
-            <a href="{{ url(site.social.ulule.url) }}">{{ asset('images/ulule.svg')|html(attributes={alt: "Logo Ulule", class: "absolute w-1/3 md:w-1/6 max-w-52 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300"}) }}</a>
+            <a href="{{ url(site.liens.ulule.url) }}">{{ asset('images/ulule.svg')|html(attributes={alt: "Logo Ulule", class: "absolute w-1/3 md:w-1/6 max-w-52 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300"}) }}</a>
             {{ asset('images/boite3.png')|html(attributes={alt: "Illustration de la boite de jeu", class: "header"}) }}
           </div>
         </div>
