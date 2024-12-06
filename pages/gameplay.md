@@ -4,11 +4,12 @@ description: Vidéo de présentation des règles du jeu.
 ---
 # Les règles du jeu
 
-[Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
-
 Les règles complètes du jeu, des conseils et bien plus encore :
 
 → [TÉLÉCHARGEZ LES RÈGLES DU JEU EN PDF](https://drive.google.com/file/d/1xJOOaSDSPL0XsoqQIVxTkPTXuyieXoUW/view?usp=sharing)
+
+[Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
+
 
 Vous pouvez également récupérer le kit de communication de Jean Claude, avec pleins de jolies images.
 
