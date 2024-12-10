@@ -59,6 +59,8 @@ pages:
       external:
         blank: true
 metatags:
+  title:
+    only: true
   jsonld:
     enabled: true
 netlify:
