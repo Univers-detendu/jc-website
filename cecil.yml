@@ -63,12 +63,12 @@ metatags:
     only: true
   jsonld:
     enabled: true
-netlify:
-  redirects:
-    - from: https://jeanclaude-aventures.netlify.app/*
-      to: https://jeanclaude-aventures.com/:splat
-      status: 301
-      force: true
+#netlify:
+#  redirects:
+#    - from: https://jeanclaude-aventures.netlify.app/*
+#      to: https://jeanclaude-aventures.com/:splat
+#      status: 301
+#      force: true
 #    - from: https://jeanclaude-aventures.com/sac/*
 #      to: https://sac.jeanclaude-aventures.com/:splat
 #      status: 301
