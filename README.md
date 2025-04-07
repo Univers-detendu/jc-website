@@ -10,10 +10,10 @@ Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://ce
 ## Structure du projet
 
 - Paramétres du site : `cecil.yml`
-- Pages de contenu : `pages/`
-- Templates (Twig) : `layouts/`
-- Images et feuille de styles : `assets/`
-- Fichiers copiés tels quels : `static/`
+- Pages de contenu : `pages`
+- Templates (Twig) : `layouts`
+- Images et feuille de styles : `assets`
+- Fichiers copiés tels quels : `static`
 - Site web généré et publié : `_site`
 
 ## Aperçu local
