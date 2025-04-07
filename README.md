@@ -9,12 +9,12 @@ Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://ce
 
 ## Structure du projet
 
-- Paramétrage du site : `cecil.yml`
+- Paramétres du site : `cecil.yml`
 - Pages de contenu : `pages/`
 - Templates (Twig) : `layouts/`
 - Images et feuille de styles : `assets/`
 - Fichiers copiés tels quels : `static/`
-- Site web généré : `_site`
+- Site web généré et publié : `_site`
 
 ## Aperçu local
 
@@ -43,7 +43,7 @@ Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https:
 1. `tailwind.config.js`
 2. `tailwind.css`
 
-Si l’un de ces fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
+Si l’un de ces 2 fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
 
 ```bash
 npm install
