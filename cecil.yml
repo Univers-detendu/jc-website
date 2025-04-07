@@ -6,6 +6,14 @@ author:
   name: Les éditions Univers Détendu
   url: "https://www.linkedin.com/company/univers-detendu/"
 image: images/open-graph.jpg
+language: fr
+languages:
+  - code: fr
+    locale: fr_FR
+theme:
+  - fontawesome
+  - netlify
+
 social:
   instagram:
     url: https://www.instagram.com/jeanclaude.aventures
@@ -24,13 +32,7 @@ liens:
     url: https://universdetendu.com/produits
 buttondown:
   username: jeanclaude
-language: fr
-languages:
-  - code: fr
-    locale: fr_FR
-theme:
-  - fontawesome
-  - netlify
+
 assets:
   images:
     optimize:
@@ -63,6 +65,7 @@ metatags:
     only: true
   jsonld:
     enabled: true
+
 netlify:
   redirects:
     - from: https://jeanclaude-aventures.netlify.app/*
