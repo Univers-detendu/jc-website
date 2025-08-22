@@ -36,8 +36,7 @@ buttondown:
 metatags:
   title:
     only: true
-  jsonld:
-    enabled: true
+  data: true
 assets:
   images:
     optimize: true
