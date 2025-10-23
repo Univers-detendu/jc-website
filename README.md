@@ -9,9 +9,9 @@ Site web du jeu _Les aventures de Jean Claude_, généré par [Cecil](https://ce
 
 ## Structure du projet
 
-- Paramétres du site : `cecil.yml`
+- Paramètres du site : `cecil.yml`
 - Pages de contenu : `pages`
-- Templates (Twig) : `layouts`
+- Templates ([Twig](https://twig.symfony.com)) : `layouts`
 - Images et feuille de styles : `assets`
 - Fichiers copiés tels quels : `static`
 - Site web généré et publié : `_site`
@@ -41,11 +41,10 @@ Puis copier le contenu du dossier `_site` sur le serveur web.
 Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https://tailwindcss.com), à partir des fichiers suivants :
 
 1. `tailwind.config.js`
-2. `tailwind.css`
+2. `assets/tailwind.css`
 
 Si l’un de ces 2 fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
 
 ```bash
-npm install
-npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css
+npx run css:build
 ```
