@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
     {{- include('partials/fontawesome.twig') ~}}
-    <style>{{ asset('css/styles.css')|inline }}</style>
+    <style>{{ asset('styles.css')|inline }}</style>
   </head>
   <body class="flex flex-col min-h-screen font-sans antialiased bg-white text-secondary">
     <div class="bg-primary text-white rounded-b-xl md:rounded-b-3xl">
@@ -21,7 +21,7 @@
         {%- endblock header ~%}
       </header>
     </div>
-    <main class="flex-grow container mx-auto px-4 md:px-8 pt-10 pb-20">
+    <main class="grow container mx-auto px-4 md:px-8 pt-10 pb-20">
       {%- block main ~%}
       <div class="p-8 rounded-3xl shadow-md mt-[-80px] bg-white">
         {{ page.content }}
