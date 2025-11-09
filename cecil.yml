@@ -1,4 +1,4 @@
-title: "Les aventures de Jean Claude"
+title: Les aventures de Jean Claude
 baseline: "Incarnez Jean Claude, racontez ses exploits, sauvez le d’une mort certaine"
 baseurl: https://jeanclaude-aventures.com/
 description: "Un jeu d’histoires coopératif ultra simple et convivial, qui permet d’incarner facilement et rapidement un personnage, pour s’initier au jeu de rôle tout en douceur."
@@ -37,17 +37,6 @@ metatags:
   title:
     only: true
   data: true
-assets:
-  images:
-    optimize: true
-    quality: 75
-    responsive:
-      enabled: true
-      widths: [480, 640, 768, 1024]
-      sizes:
-        default: '100vw'
-        header: "(max-width: 480px) 480px, (max-width: 640px) 640px, (max-width: 800px) 768px, (max-width: 1600px) 1024px"
-    formats: [avif, webp]
 pages:
   body:
     images:
@@ -57,6 +46,19 @@ pages:
     links:
       embed: true
       external: true
+assets:
+  images:
+    optimize: true
+    quality: 75
+    responsive:
+      widths: [480, 640, 768, 1024]
+      sizes:
+        default: '100vw'
+        header: "(max-width: 480px) 480px, (max-width: 640px) 640px, (max-width: 800px) 768px, (max-width: 1600px) 1024px"
+layouts:
+  images:
+    formats: ['avif', 'webp']
+    responsive: true
 
 netlify:
   redirects:
