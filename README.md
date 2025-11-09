@@ -46,5 +46,5 @@ Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https:
 Si l’un de ces 2 fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
 
 ```bash
-npx run css:build
+npm run css:build
 ```
