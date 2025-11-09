@@ -40,7 +40,7 @@ metatags:
 pages:
   body:
     images:
-      formats: ['avif', 'webp']
+      formats: [avif, webp]
       responsive: true
       caption: true
     links:
@@ -57,7 +57,7 @@ assets:
         header: "(max-width: 480px) 480px, (max-width: 640px) 640px, (max-width: 800px) 768px, (max-width: 1600px) 1024px"
 layouts:
   images:
-    formats: ['avif', 'webp']
+    formats: [avif, webp]
     responsive: true
 
 netlify:
