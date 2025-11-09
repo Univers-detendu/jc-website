@@ -10,7 +10,7 @@ blocks:
 
       Jean Claude va mourir. Et pas qu’un peu.
 
-      ![Différents decks d'aventures de Jean Claude](../assets/images/decks2.png){formats=[avif,webp], responsive=true}
+      ![Différents decks d'aventures de Jean Claude](../assets/images/decks2.png)
 
       Les aventures de Jean Claude a été financé avec succès en Juillet 2024 [sur Ulule](https://fr.ulule.com/les-aventures-de-jean-claude/). Grâce à votre soutien, notre campagne de financement participatif a dépassé les 10 000 € ! Un immense merci à toutes et tous !
   - name: qa
