@@ -15,7 +15,7 @@
         {%- block header ~%}
         <div class="flex flex-col md:flex-row space-x-4">
           <div class="basis-1/2">
-            <a href="{{ url(site.home) }}">{{ html(asset('images/logo.svg'), attributes={alt: "Logo du site", class: 'inline'}) }}</a>
+            <a href="{{ url(site.home) }}">{{ html(asset('images/logo.svg'), attributes={alt: "Logo du site", class: 'inline'}, options={responsive: false, formats: []}) }}</a>
           </div>
         </div>
         {%- endblock header ~%}
@@ -23,7 +23,7 @@
     </div>
     <main class="grow container mx-auto px-4 md:px-8 pt-10 pb-20">
       {%- block main ~%}
-      <div class="p-8 rounded-3xl shadow-md mt-[-80px] bg-white">
+      <div class="p-8 rounded-3xl shadow-md -mt-20 bg-white">
         {{ page.content }}
       </div>
       {%- endblock main ~%}
