@@ -40,7 +40,7 @@ metatags:
 pages:
   body:
     images:
-      formats: [avif, webp]
+      formats: ['avif', 'webp']
       responsive: true
       caption: true
     links:
