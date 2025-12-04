@@ -234,9 +234,6 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
-  .mt-\[-80px\] {
-    margin-top: -80px;
-  }
   .form-input {
     appearance: none;
     background-color: #fff;
