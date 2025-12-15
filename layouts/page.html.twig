@@ -5,9 +5,12 @@
     {{- include('partials/metatags.html.twig') ~}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Unbounded:wght@200..900&display=swap" as="style">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Unbounded:wght@200..900&display=swap">
     {{- include('partials/fontawesome.twig') ~}}
-    <style>{{ asset('styles.css')|inline }}</style>
+    <style>
+      {{- asset('styles.css')|inline ~}}
+    </style>
   </head>
   <body class="flex flex-col min-h-screen font-sans antialiased bg-white text-secondary">
     <div class="bg-primary text-white rounded-b-xl md:rounded-b-3xl">
