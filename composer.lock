@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9695ba150307c5cd045064ed267d3cc",
+    "content-hash": "2fbcbab8bb70a4a0da098972d5bc6641",
     "packages": [
         {
             "name": "cecil/theme-fontawesome",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-fontawesome.git",
-                "reference": "fe04a539377a4a97f7dbe38164b9e0bf660cc0f3"
+                "reference": "03d6cc4337820993c37d854737dc46b2279302da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-fontawesome/zipball/fe04a539377a4a97f7dbe38164b9e0bf660cc0f3",
-                "reference": "fe04a539377a4a97f7dbe38164b9e0bf660cc0f3",
+                "url": "https://api.github.com/repos/Cecilapp/theme-fontawesome/zipball/03d6cc4337820993c37d854737dc46b2279302da",
+                "reference": "03d6cc4337820993c37d854737dc46b2279302da",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-fontawesome/issues",
-                "source": "https://github.com/Cecilapp/theme-fontawesome/tree/1.4.3"
+                "source": "https://github.com/Cecilapp/theme-fontawesome/tree/1.5.0"
             },
             "funding": [
                 {
@@ -55,7 +55,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-11-20T14:59:40+00:00"
+            "time": "2025-12-15T18:43:10+00:00"
         },
         {
             "name": "cecil/theme-installer",
