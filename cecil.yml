@@ -67,7 +67,8 @@ netlify:
       to: https://jeanclaude-aventures.com/:splat
       status: 301
       force: true
-#    - from: https://jeanclaude-aventures.com/sac/*
-#      to: https://sac.jeanclaude-aventures.com/:splat
-#      status: 301
-#      force: true
+    # Un sous domaine pour le sac de JC ?
+    #- from: https://jeanclaude-aventures.com/sac/*
+    #  to: https://sac.jeanclaude-aventures.com/:splat
+    #  status: 301
+    #  force: true
