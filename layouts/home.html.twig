@@ -6,7 +6,6 @@
             <div class="inline">{{ html(asset('images/logo.svg'), attributes={alt: "Logo du site", class: 'inline'}) }}</div>
             <h1 class="mt-12 text-3xl">{{ site.baseline|split(',')|join('\n')|nl2br }}</h1>
             <div class="mt-8">{{ site.description }}</div>
-            {#- include('partials/_newsletter.html.twig') ~#}
             <div class="mt-10 pb-10 flex flex-col space-y-2">
               <a href="{{ url(site.liens.shop.url) }}" class="md:w-64 inline-flex items-center justify-center px-10 py-6 rounded-full bg-secondary text-white font-bold no-underline transition hover:brightness-125 duration-300">
                 Acheter le jeu
