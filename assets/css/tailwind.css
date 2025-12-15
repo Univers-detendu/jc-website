@@ -1,9 +1,16 @@
 @import 'tailwindcss';
-@config '../tailwind.config.js';
+@source './layouts/**/*.html.twig';
+@source inline('text-neutral-400');
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --font-sans: "Unbounded", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-primary: #0081FF;
+  --color-secondary: #1E0D56;
+}
 
 @layer base {
   html {
-    font-family: "Unbounded", system-ui, sans-serif;
     @apply font-light;
   }
   h1, h2, h3 {
@@ -11,7 +18,7 @@
     @apply tracking-wide uppercase mb-2;
   }
   h2 {
-    @apply text-3xl ;
+    @apply text-3xl;
   }
   h3 {
     @apply text-xl;
