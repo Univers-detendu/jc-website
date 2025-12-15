@@ -50,8 +50,8 @@ assets:
     responsive:
       widths: [480, 640, 768, 1024]
       sizes:
-        default: '100vw'
-        header: "(max-width: 480px) 480px, (max-width: 640px) 640px, (max-width: 800px) 768px, (max-width: 1600px) 1024px"
+        default: 80vw
+        header: "(max-width: 767px) 80vw, 40vw"
 layouts:
   images:
     formats: [avif, webp]
