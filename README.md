@@ -38,13 +38,6 @@ Puis copier le contenu du dossier `_site` sur le serveur web.
 
 ## (re)Génération de la feuille de styles
 
-Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https://tailwindcss.com), à partir des fichiers suivants :
+Le fichier de styles `assets/styles.css` est généré par [Tailwind CSS](https://tailwindcss.com) à partir de `assets/css/tailwind.css`.
 
-1. `tailwind.config.js`
-2. `assets/tailwind.css`
-
-Si l’un de ces 2 fichiers est modifié, il est nécessaire de régénérer la feuille de styles :
-
-```bash
-npm run css:build
-```
+Si ce fichier est modifié il est nécessaire de régénérer les styles via `npm run css:build`.
