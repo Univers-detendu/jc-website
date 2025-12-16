@@ -17,7 +17,7 @@
     font-family: "Gasoek One", system-ui, sans-serif;
     @apply tracking-wide uppercase mb-2;
   }
-  h2 {
+  h1, h2 {
     @apply text-3xl;
   }
   h3 {
