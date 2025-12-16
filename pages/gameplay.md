@@ -6,7 +6,7 @@ description: Vidéo de présentation des règles du jeu.
 
 Les règles complètes du jeu, des conseils et bien plus encore :
 
-→ [TÉLÉCHARGEZ LES RÈGLES DU JEU EN PDF](https://drive.google.com/file/d/1xJOOaSDSPL0XsoqQIVxTkPTXuyieXoUW/view?usp=sharing)
+→ [TÉLÉCHARGEZ LES RÈGLES DU JEU EN PDF](/JEAN-CLAUDE_REGLES.pdf)
 
 [Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
 
