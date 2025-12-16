@@ -9,4 +9,6 @@ Vous souhaitez communiquer autour des Aventures de Jean Claude ? Ça tombe bien,
 
 Un grand merci pour votre soutien ❤️ !
 
+---
+
 → [Retour à la page d’accueil](/)

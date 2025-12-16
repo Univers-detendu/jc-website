@@ -16,4 +16,6 @@ Vous pouvez également récupérer le kit de communication de Jean Claude, avec 
 
 Un grand merci pour votre soutien ❤️ !
 
+---
+
 → [Retour à la page d’accueil](/)

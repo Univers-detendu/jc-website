@@ -8,4 +8,6 @@ Vous avez une question, besoin d’infos, une idée soudaine, un truc à nous ra
 
 Envoyez nous un mail à <contact@jeanclaude-aventures.com>.
 
+---
+
 → [Retour à la page d’accueil](/)
