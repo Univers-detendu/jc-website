@@ -33,7 +33,7 @@ blocks:
     content: |
       [Les règles du jeu de Jean Claude](https://www.youtube.com/watch?v=lp9ch3YPeWo){embed}
 
-      Vous pouvez aussi télécharger les [règles du jeu en PDF](https://drive.google.com/file/d/1xJOOaSDSPL0XsoqQIVxTkPTXuyieXoUW/view?usp=sharing).
+      Vous pouvez aussi télécharger les [règles du jeu en PDF](/regles).
   - name: contact
     title: Nous contacter
     content: |
