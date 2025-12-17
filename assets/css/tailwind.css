@@ -6,6 +6,7 @@
 @theme {
   --font-sans: "Unbounded", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --color-primary: #0081FF;
+  --color-primary-dark: #004d99;
   --color-secondary: #1E0D56;
 }
 

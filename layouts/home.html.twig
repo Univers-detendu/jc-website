@@ -30,7 +30,7 @@
       {%- block main ~%}
       {%- for block in page.blocks|default([]) ~%}
         {%- if block.type|default('secondary') == 'primary' ~%}
-      <div class="p-8 rounded-3xl shadow-md -mt-20 bg-white">
+      <div class="p-8 rounded-3xl shadow-md -mt-20 bg-white dark:bg-gray-800">
         {{- include('blocks/' ~ block.name ~ '.html.twig', {block: block}, ignore_missing = true) ~}}
       </div>
         {%- else ~%}
