@@ -32,12 +32,22 @@
     </main>
     <div class="bg-primary dark:bg-(--color-primary-dark) text-white rounded-t-xl md:rounded-t-3xl">
       <footer class="container mx-auto px-4 md:px-8 pt-10 pb-2">
+        {#- socials ~#}
         <div class="flex flex-row space-x-6 justify-center">
           {%- for name, attr in site.social|default([]) ~%}
           <a href="{{ url(attr.url) }}"><span class="sr-only">{{ name|capitalize }}</span>{{ fontawesome.icon(name, 'brands', '2xl') }}</a>
           {%- endfor ~%}
         </div>
         <div class="px-8 pt-4 pb-0 text-center text-sm">
+          {#- links ~#}
+          <nav>
+          {%- for entry in site.menus.main ~%}
+            <span class="{% if not loop.last %}after:content-['\00a0\00B7\00a0']{% endif %}">
+              <a href="{{ url(entry) }}">{{ entry.name }}</a>
+            </span>
+          {%- endfor ~%}
+          </nav>
+          {#- copyright ~#}
           <p>{{ site.title }}. Tous droits réservés <a href="{{ url(site.author.url|default(url('/'))) }}">{{ site.author.name }}</a>.</p>
           <p>Site web propulsé par <a href="{{ cecil.url }}">Cecil</a></p>
         </div>

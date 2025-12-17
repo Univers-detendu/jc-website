@@ -1,5 +1,7 @@
 ---
 title: Contact
+description: "Contacter l'équipe du jeu."
+menu: main
 ---
 # Nous contacter
 

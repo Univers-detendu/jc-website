@@ -1,6 +1,6 @@
 ---
 title: Gameplay
-description: Vidéo de présentation des règles du jeu.
+description: "Vidéo de présentation des règles du jeu."
 ---
 # Les règles du jeu
 

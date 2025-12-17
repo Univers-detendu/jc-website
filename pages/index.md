@@ -1,4 +1,5 @@
 ---
+title: Accueil
 blocks:
   - name: presentation
     type: primary

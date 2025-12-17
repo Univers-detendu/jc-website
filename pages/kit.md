@@ -1,5 +1,6 @@
 ---
 title: Kit de communication
+description: "Télécharger le kit de communication."
 ---
 # Le Kit de communication
 
