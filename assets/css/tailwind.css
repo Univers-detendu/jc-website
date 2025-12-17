@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 @source './layouts/**/*.html.twig';
-@source inline('text-neutral-400');
 @plugin "@tailwindcss/forms";
 
 @theme {
@@ -29,6 +28,9 @@
   }
   a {
     @apply underline;
+  }
+  blockquote {
+    @apply text-neutral-400;
   }
   main img {
     @apply mx-auto;
